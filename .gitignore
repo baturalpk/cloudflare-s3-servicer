@@ -1,0 +1,14 @@
+# Secrets and configurations for development environment
+.dev.vars
+
+# Misc. (builds, dependencies, cache, logs, ...)
+/target
+/dist
+**/*.rs.bk
+Cargo.lock
+bin/
+pkg/
+wasm-pack.log
+worker/
+node_modules/
+.cargo-ok

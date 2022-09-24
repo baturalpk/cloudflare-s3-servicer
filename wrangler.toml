@@ -1,0 +1,7 @@
+name = "cloudflare-s3-servicer"
+main = "index.js"
+
+# ! To enable Cache API, set up a custom domain at the zone level:
+# routes = [{ pattern = "cdn.example.com", custom_domain = true }]
+
+compatibility_date = "2022-09-24"
